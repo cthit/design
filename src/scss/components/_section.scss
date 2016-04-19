@@ -1,0 +1,10 @@
+.section {
+  margin-bottom: $global-padding;
+  padding-bottom: $global-padding;
+  border-bottom: 1px solid #eee;
+
+  &:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+}

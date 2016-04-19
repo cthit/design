@@ -1,0 +1,14 @@
+.card {
+  background-color: #fff;
+  border-radius: $global-radius;
+  margin-top: $global-padding;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  @media #{$medium-up} {
+    margin-top: $global-padding * 2;
+  }
+}

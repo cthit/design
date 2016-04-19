@@ -6,7 +6,7 @@ var cleanCSS = require('gulp-clean-css');
 var rename = require('gulp-rename');
 
 var paths = {
-  'scss': [
+  scss: [
     'bower_components/foundation-sites/scss'
   ]
 }

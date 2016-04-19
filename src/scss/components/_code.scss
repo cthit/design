@@ -1,0 +1,11 @@
+code {
+  padding: $global-padding;
+  border-radius: $global-radius;
+  background-color: #f6f6f6;
+  border: 1px solid #ccc;
+  font-size: 0.7rem;
+
+  &.expanded {
+    display: block;
+  }
+}

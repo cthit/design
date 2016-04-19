@@ -1,0 +1,83 @@
+/// Font size attribute applied to `<html>` and `<body>`. We use 100% by default so the value is inherited from the user's browser settings.
+/// @type Number
+$global-font-size: 18px !default;
+
+/// Default line height for all type. `$global-lineheight` is 24px while `$global-font-size` is 16px
+/// @type Number
+$global-lineheight: 1.5 !default;
+
+/// Primary color for interactive components like links and buttons.
+/// @type Color
+$primary-color: #00A8E2 !default;
+
+/// Secondary color, used with components that support the `.secondary` class.
+/// @type Color
+$secondary-color: #aaa !default;
+
+/// Color to indicate a positive status or action, used with the `.success` class.
+/// @type Color
+$success-color: #00D45A !default;
+
+/// Color to indicate a caution status or action, used with the `.warning` class.
+/// @type Color
+$warning-color: #FFC822 !default;
+
+/// Color to indicate a negative status or action, used with the `.alert` class.
+/// @type Color
+$alert-color: #E42929 !default;
+
+/// Color used for light gray UI items.
+/// @type Color
+$light-gray: #e6e6e6 !default;
+
+/// Color used for medium gray UI items.
+/// @type Color
+$medium-gray: #cacaca !default;
+
+/// Color used for dark gray UI items.
+/// @type Color
+$dark-gray: #8a8a8a !default;
+
+/// Color used for black ui items.
+/// @type Color
+$black: #0a0a0a !default;
+
+/// Color used for white ui items.
+/// @type Color
+$white: #fefefe !default;
+
+/// Background color of the body.
+/// @type Color
+$body-background: #f3f3f3 !default;
+
+/// Text color of the body.
+/// @type Color
+$body-font-color: $black !default;
+
+/// Font stack of the body.
+/// @type List
+$body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif !default;
+
+/// Set to `true` to enable antialiased type, using the `-webkit-font-smoothing` and `-moz-osx-font-smoothing` CSS properties.
+/// @type Boolean
+$body-antialiased: true !default;
+
+/// Global value used for margin on components.
+/// @type Number
+$global-margin: 1rem !default;
+
+/// Global value used for padding on components.
+/// @type Number
+$global-padding: 1rem !default;
+
+/// Global font weight used for normal type.
+/// @type Keyword | Number
+$global-weight-normal: normal !default;
+
+/// Global font weight used for bold type.
+/// @type Keyword | Number
+$global-weight-bold: bold !default;
+
+/// Global value used for all elements that have a border radius.
+/// @type Number
+$global-radius: 4px !default;

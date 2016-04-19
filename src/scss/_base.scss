@@ -1,0 +1,31 @@
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  &.small {
+    max-width: 768px;
+  }
+
+  &.medium {
+    max-width: 960px;
+  }
+
+  @media #{$small-only} {
+    &.padding {
+      padding: 0;
+    }
+  }
+}
+
+.padding {
+  padding: $global-padding;
+
+  @media #{$medium-up} {
+    padding: $global-padding * 2;
+  }
+}
+
+.spacer {
+  height: $global-padding;
+}
